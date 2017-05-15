@@ -6,7 +6,8 @@
 		"token": "",
 		"filename": "verified_online.json.gz",
 		"refreshtime": 43200,
-		"items": ["url"]
+		"items": ["url"],
+		"filters": "phishtank.py"
 	},
 	{
 		"name": "tor",
@@ -15,5 +16,14 @@
 		"filename": "Tor_ip_list_EXIT.csv",
 		"refreshtime": 43200,
 		"items": ["ip"]
+	},
+	{
+		"name": "c2",
+		"base_url": "http://osint.bambenekconsulting.com",
+		"path": "/feeds/c2-ipmasterlist.txt",
+		"filename": "c2-ipmasterlist.txt",
+		"refreshtime": 43200,
+		"items": ["ip"],
+		"filters": "bambenek.py"
 	}
 ]

@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 from sys import argv
 from json import load
 from threading import Thread
@@ -78,8 +80,8 @@ class sock_serv(object):
         for item in intelnames:
             if item in request_name:
                 if not request_command in json_data[cnt]["items"]:
-                    client_socket.send("%s for %s is not implemented.\n%s" % \
-                        (request_command, request_name, self.usage))
+                    client_socket.send("%s for %s is not implemented.\n\n%s" % \
+                        (request_command, request_name, self.usage(json_data)))
                     break
 
                 # Implement usage if config is not specified?
@@ -87,10 +89,15 @@ class sock_serv(object):
                     token = json_data[cnt]["token"]
                 except (NameError, KeyError):
                     token = ""
+                try:
+                    filter = json_data[cnt]["filters"]
+                except (NameError, KeyError):
+                    filter = ""
 
                 intel = grabber(json_data[cnt]["name"], json_data[cnt]["base_url"], \
                         json_data[cnt]["path"], json_data[cnt]["filename"], \
-                        json_data[cnt]["refreshtime"], token=token)
+                        json_data[cnt]["refreshtime"], \
+                        filter=filter, token=token)
                 
                 return_intel = intel.check_all_url()
                 client_socket.send("%s" % "\n".join(return_intel))
