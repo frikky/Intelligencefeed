@@ -1,20 +1,23 @@
 #!/usr/bin/python
 
 from sys import argv
+from os import stat, mkdir
 from json import load
 from threading import Thread
-from scripts.grabber import grabber 
+from grabber import grabber 
 from socket import socket,AF_INET,SOCK_STREAM
 
 class sock_serv(object):
     def __init__(self):
         self.config_file = "config/config.json"
-        self.bind_ip = "localhost"
+        self.bind_ip = "0.0.0.0"
         try:
             self.bind_port = int(argv[1])
         except:
             print "Usage: python server <port>\nDefaulting to port 5000"
             self.bind_port = 5000
+
+        self.verify_data_folder()
 
     def get_single_json(self, name):
         intel_json = load(open(self.config_file, "r"))
@@ -23,6 +26,13 @@ class sock_serv(object):
                 return item
 
         return ""
+
+    def verify_data_folder(self):
+        try:
+            stat("data/")
+        except:
+            mkdir("data/")
+            print "Created data folder for first runtime."
 
     def run_server(self):
         self.server = socket(AF_INET, SOCK_STREAM)
@@ -40,8 +50,10 @@ class sock_serv(object):
 
     def usage(self, json_obj):
         data = ["[*] Usage: %s/name/command. Implemented commands:"]
+
+        # Add categories together
         for item in json_obj:
-            data.append("[*] %s: %s" % (item["name"], ", ".join(item["items"])))
+            data.append("[*] %s: %s" % (item["category"], ", ".join(item["items"])))
 
         return "\n".join(data)
 
@@ -51,6 +63,7 @@ class sock_serv(object):
         # Refresh for each request in case of updates.
         json_data = load(open(self.config_file, "r"))
         intelnames = [item["name"] for item in json_data]
+        intelcategories = [item["category"] for item in json_data]
 
         #Make dynamic 
         # Find name 
@@ -68,7 +81,7 @@ class sock_serv(object):
 
         # It works \o/
         try:
-            request_name = request_line.split(" ")[1][1:].split("/")[0]
+            request_category = request_line.split(" ")[1][1:].split("/")[0]
             request_command = request_line.split(" ")[1][1:].split("/")[1]
         except IndexError:
             client_socket.send(self.usage(json_data))
@@ -76,34 +89,49 @@ class sock_serv(object):
             return
         # Above might not work
 
+        total_values = []
+
         cnt = 0
-        for item in intelnames:
-            if item in request_name:
-                if not request_command in json_data[cnt]["items"]:
-                    client_socket.send("%s for %s is not implemented.\n\n%s" % \
-                        (request_command, request_name, self.usage(json_data)))
-                    break
+        for item in intelcategories:
+            if not item in request_category:
+                cnt += 1
+                continue
 
-                # Implement usage if config is not specified?
-                try:
-                    token = json_data[cnt]["token"]
-                except (NameError, KeyError):
-                    token = ""
-                try:
-                    filter = json_data[cnt]["filters"]
-                except (NameError, KeyError):
-                    filter = ""
+            if not request_command in json_data[cnt]["items"]:
+                print request_command, json_data[cnt]
+                #client_socket.send("%s for %s is not implemented.\n\n%s" % \
+                #    (request_command, request_category, self.usage(json_data)))
+                cnt += 1
+                continue
 
-                intel = grabber(json_data[cnt]["name"], json_data[cnt]["base_url"], \
-                        json_data[cnt]["path"], json_data[cnt]["filename"], \
-                        json_data[cnt]["refreshtime"], \
-                        filter=filter, token=token)
-                
-                return_intel = intel.check_all_url()
-                client_socket.send("%s" % "\n".join(return_intel))
-                break
+            # Used if a token is necessary to grab the data
+            try:
+                token = json_data[cnt]["token"]
+            except (NameError, KeyError):
+                token = ""
+
+            # Used if a filter is specified to gain the right information
+            try:
+                filter = json_data[cnt]["filters"]
+            except (NameError, KeyError):
+                filter = ""
+
+            # Add category indexing for the returned info
+            intel = grabber(json_data[cnt]["name"], json_data[cnt]["base_url"], \
+                json_data[cnt]["path"], json_data[cnt]["filename"], \
+                json_data[cnt]["refreshtime"], \
+                filter=filter, token=token)
 
             cnt += 1
+            total_values.extend(intel.check_all_url())
+
+        # Verify multiple of the same here
+        if not total_values:
+            client_socket.send("%s for %s is not implemented.\n\n%s" % \
+                (request_command, request_category, self.usage(json_data)))
+        else:
+            client_socket.send("%s" % "\n".join(total_values))
+            total_values = []
 
         client_socket.close()
          
