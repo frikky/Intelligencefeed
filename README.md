@@ -8,7 +8,7 @@ Nothing is free, and there is no good framework so I just made a shitty one :^)
 Edit the config file with more information, run the server and run something on the specified port.
 
 ## Todos 
-* CATEGORIZE STUFF
+* CATEGORIZE STUFF (Done?)
 * Better database handling
 * Stop using freaking wget and swap to request
 
