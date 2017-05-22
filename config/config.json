@@ -27,5 +27,15 @@
 		"refreshtime": 43200,
 		"items": ["ip"],
 		"filters": "bambenek.py"
+	},
+	{
+		"name": "zeus",
+		"base_url": "https://feodotracker.abuse.ch",
+		"category": "cnc",
+		"path": "/?filter=online",
+		"filename": "index.html?filter=online",
+		"refreshtime": 43200,
+		"items": ["ip"],
+		"filters": "zeus.py"
 	}
 ]

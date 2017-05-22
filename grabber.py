@@ -6,73 +6,102 @@ from time import time
 from json import loads
 from sys import stdout
 from wget import download 
-from os import remove, path, rename
+import os
 
 class grabber(object):
-    def __init__(self, name, base_url, path, filename, refreshtime, filter="", token=""):
-        self.name = name
-        self.base_url = base_url 
-        self.path = path
-        self.filename = filename 
-        self.token = token if token else "" 
-        self.refreshtime = refreshtime 
-        self.filter = filter
+	def __init__(self, name, base_url, path, filename, refreshtime, filter="", token=""):
+		self.name = name
+		self.base_url = base_url 
+		self.path = path
+		self.filename = filename 
+		self.token = token if token else "" 
+		self.refreshtime = refreshtime 
+		self.filter = filter
 
-        self.urllist = []
+		self.urllist = []
 
-    def cleanup(self):
-        try:
-            remove("data/%s" % self.filename)
-        except OSError as e:
-            return e 
+	def cleanup(self):
+		try:
+			os.remove("data/%s" % self.filename)
+		except OSError as e:
+			return e 
 
-    def move_file(self):
-        rename("%s" % self.filename, "data/%s" % self.filename)
+	def move_file(self):
+		os.rename("%s" % self.filename, "data/%s" % self.filename)
 
-    def check_all_url(self):
-        self.refresh()
-        self.urllist = open("data/%s" % self.filename).read().split("\n")
+	def check_all_url(self):
+		self.refresh("url")
 
-        return self.urllist
+		dir_path = os.path.dirname(os.path.realpath(__file__))
 
-    def verify_update(self):
-        try:
-            if int(int(time())-int(path.getmtime("data/%s" % self.filename))) < self.refreshtime:
-                return False 
-        except OSError:
-            return True
+		if not self.filter:
+			self.urllist = open("%s/data/%s" % (dir_path, self.filename)).read().split("\n")
+		else:
+			self.urllist = open("%s/data/url/%s" % (dir_path, self.filename)).read().split("\n")
 
-        return True
+		return self.urllist
 
-    def fix_file(self):
-        if not self.filter:
-            return
+	def check_all_ip(self):
+		self.refresh("ip")
 
-        dir_path = path.dirname(path.realpath(__file__))
-        args = ["python", "scripts/%s" % self.filter, "%s/data/%s" % (dir_path, self.filename)]
-        call([" ".join(args)], shell=True)
+		dir_path = os.path.dirname(os.path.realpath(__file__))
 
-    def refresh(self):
-        verify_refresh = self.verify_update()
+		if not self.filter:
+			self.iplist = open("%s/data/%s" % (dir_path, self.filename)).read().split("\n")
+		else:
+			self.iplist = open("%s/data/ip/%s" % (dir_path, self.filename)).read().split("\n")
 
-        ## FIX -- MIGHT BREAK SHIT
-        self.fix_file()
+		return self.iplist
 
-        if not verify_refresh:
-            return False
+	def verify_update(self):
+		try:
+			if int(int(time())-int(os.path.getmtime("data/%s" % self.filename))) < self.refreshtime:
+				return False 
+		except OSError:
+			return True
 
-        self.cleanup() 
-        stdout.write("Refreshing \"%s\" database.\n" % self.name)
+		return True
 
-        if self.token:
-            self.path = self.path.replace("%s", self.token)
+		# Implement ip first
+	def fix_file(self, path):
+		if not self.filter:
+			return
 
-        self.filename = download("%s%s" % (self.base_url, self.path))
-        self.move_file()
-        self.fix_file()
+		dir_path = os.path.dirname(os.path.realpath(__file__))
+		args = ["python", "%s/scripts/%s/%s" % (dir_path, path, self.filter), \
+			"%s/data/%s" % (dir_path, self.filename),
+			"%s/data/%s/%s" % (dir_path, path, self.filename)]
 
-        return True
+		#print(" ".join(args))
+
+		call([" ".join(args)], shell=True)
+
+		# Add ALL, IP, Hash, URL etc.
+
+	def refresh(self, path):
+		verify_refresh = self.verify_update()
+
+		## FIX -- MIGHT BREAK SHIT
+		#self.fix_file(path)
+
+		if not verify_refresh:
+		   return False
+
+		self.cleanup() 
+		stdout.write("Refreshing \"%s\" database.\n" % self.name)
+
+		if self.token:
+			self.path = self.path.replace("%s", self.token)
+
+		self.filename = download("%s%s" % (self.base_url, self.path))
+		self.move_file()
+		self.fix_file(path)
+
+		return True
 
 if __name__ == "__main__":
-    phish = grabber()
-    phish.check_all_url()
+	phish = grabber("bambenek", "http://osint.bambenekconsulting.com", "/feeds/c2-ipmasterlist.txt", \
+		"c2-ipmasterlist.txt", 43200, "bambenek.py")
+	#def __init__(self, name, base_url, path, filename, refreshtime, filter="", token=""):
+
+	print("\n".join(phish.check_all_ip()))

@@ -1,379 +1,346 @@
-5.101.153.16
-5.9.73.226
-23.104.241.95
-23.230.7.8
-23.236.62.147
-23.247.20.31
-43.230.142.125
-43.241.196.105
-45.43.229.137
-47.89.2.68
-47.89.48.123
-47.89.57.59
-50.63.202.2
-50.63.202.28
-52.204.129.22
-54.85.127.70
-58.64.145.121
-61.158.163.28
-62.149.128.151
-62.149.128.154
-62.149.128.157
-62.149.128.160
-62.149.128.163
-62.149.128.166
-62.149.128.72
-62.149.128.74
-64.71.33.162
-67.231.240.114
-69.46.71.59
-69.64.147.249
-74.220.199.8
-74.220.207.152
-78.24.9.52
-78.46.156.194
-81.169.145.159
-81.169.145.160
-81.169.145.161
-83.137.194.79
-85.158.203.201
-91.203.68.194
-98.124.245.24
-103.224.212.222
-103.241.73.233
-106.187.51.202
-107.160.183.81
-107.161.176.66
-109.70.4.246
-109.71.51.55
-112.127.77.125
-112.78.125.29
-115.126.45.56
-119.188.157.22
-119.23.127.213
-121.40.153.149
-122.10.99.22
-123.1.194.96
-123.254.108.81
-123.60.140.93
-133.242.195.32
-136.0.112.7
-139.129.145.98
-141.8.225.124
-142.111.144.116
-142.4.204.181
-150.95.255.38
-157.112.152.71
-162.210.102.66
-163.44.191.38
-170.178.178.44
-172.106.173.159
-173.236.55.90
-174.137.132.42
-178.21.17.232
-178.79.147.207
-184.168.221.6
-184.168.221.96
-186.202.153.222
-192.147.0.118
-192.169.243.26
-192.185.167.91
-192.190.87.140
-196.22.132.17
-198.23.48.104
-198.38.82.115
-198.38.83.24
-199.59.243.120
-203.156.192.80
-208.109.80.14
-210.233.65.226
-213.186.33.5
-216.250.121.2
-216.40.47.17
-217.160.0.180
-217.26.53.222
-217.70.184.38
-219.118.71.121
-219.234.93.54
-219.235.5.224
-204.11.56.48
-208.91.197.66
-52.204.129.22
-54.85.127.70
-64.21.149.167
-66.29.58.119
-67.59.157.51
-69.41.162.77
-69.64.147.36
-69.64.147.37
-69.64.147.44
-69.64.147.45
-69.64.147.46
-75.5.255.185
-103.224.212.222
-143.215.15.199
-204.11.56.48
-207.10.232.16
-207.10.232.21
-209.160.65.66
-209.99.40.222
-209.99.40.223
-98.109.36.51
-168.210.145.198
-173.178.0.129
-202.61.48.255
-249.176.111.217
-249.224.227.95
-250.24.250.58
-250.72.238.26
-250.96.196.187
-251.152.125.216
-251.160.237.252
-251.88.227.250
-252.184.59.95
-255.64.55.157
-23.227.38.32
-45.33.9.234
-211.149.172.162
-5.149.249.152
-23.236.62.147
-69.64.146.192
-69.64.147.37
-72.47.224.120
-79.173.157.148
-107.161.23.204
-107.180.27.240
-141.8.225.124
-164.132.212.72
-167.114.213.199
-184.168.221.104
-184.168.221.15
-185.16.44.132
-194.63.248.70
-199.59.243.120
-207.148.248.145
-207.97.224.97
-208.97.148.236
-213.174.151.179
-216.185.144.185
-5.9.41.105
-40.255.0.62
-66.96.149.32
-69.64.147.39
-69.64.147.44
-104.247.192.37
-162.255.119.249
-191.5.59.19
-192.235.77.206
-195.110.124.133
-52.28.249.128
-52.4.209.250
-107.170.170.216
-34.197.76.50
-51.254.172.107
-52.9.172.230
-52.9.250.234
-69.195.129.75
-69.64.147.37
-89.223.109.60
-91.218.114.24
-173.230.158.166
-185.118.67.219
-185.156.178.106
-185.49.69.153
-213.247.47.190
-52.4.209.250
-31.186.169.41
-46.249.43.105
-46.28.2.13
-46.30.213.205
-46.30.213.222
-46.30.213.30
-46.30.215.30
-46.30.215.57
-52.0.217.44
-52.208.70.89
-52.58.78.16
-62.129.200.14
-62.149.128.151
-62.149.128.154
-62.149.128.157
-62.149.128.160
-62.149.128.163
-62.149.128.166
-62.149.128.72
-62.149.128.74
-62.153.122.122
-62.197.128.123
-62.212.87.22
-66.96.149.32
-72.52.4.122
-77.232.68.19
-77.55.97.141
-79.170.40.236
-80.237.132.180
-80.85.86.6
-81.169.145.105
-81.169.145.161
-81.169.145.162
-81.169.145.68
-81.169.145.84
-81.169.145.92
-81.169.145.94
-81.177.139.153
-81.2.194.128
-81.2.194.176
-81.2.194.62
-81.95.96.29
-82.100.220.50
-82.98.135.43
-83.162.30.185
-84.234.64.242
-85.114.135.128
-85.124.51.115
-85.128.128.99
-85.13.129.76
-85.13.132.239
-85.214.112.103
-87.98.230.60
-88.198.56.106
-91.121.154.229
-91.121.59.137
-91.196.124.119
-91.199.77.50
-91.240.216.11
-92.43.203.171
-92.61.39.239
-93.120.27.9
-93.190.48.3
-93.208.108.196
-93.94.226.29
-94.152.8.56
-94.152.8.57
-95.110.231.107
-95.211.102.20
-104.31.88.58
-104.31.89.58
-109.235.63.103
-141.105.126.87
-141.8.230.20
-149.216.106.61
-165.160.13.20
-165.160.15.20
-166.62.28.86
-178.32.208.147
-178.33.49.166
-183.90.242.4
-185.183.8.67
-185.51.65.84
-185.53.179.8
-185.66.236.14
-188.40.28.163
-192.64.147.231
-194.150.113.18
-194.242.61.31
-194.9.94.235
-194.9.94.85
-194.9.94.86
-195.110.124.188
-195.8.208.58
-199.116.248.204
-203.151.233.116
-208.91.199.233
-209.140.30.61
-210.172.183.32
-211.43.203.53
-212.227.255.128
-212.85.106.71
-213.186.33.5
-217.160.0.169
-217.160.122.61
-217.160.223.213
-217.160.231.163
-217.160.233.84
-217.17.85.91
-217.19.237.54
-217.70.142.74
-217.70.184.38
-217.76.156.252
-45.63.48.103
-50.63.202.13
-50.63.202.27
-52.4.209.250
-54.72.9.51
-62.22.102.59
-62.241.252.52
-66.96.149.1
-69.64.147.33
-69.64.147.44
-69.64.147.45
-69.64.147.46
-69.64.147.47
-69.89.27.213
-72.52.10.14
-72.52.4.122
-79.170.44.80
-91.210.234.25
-94.136.40.82
-95.128.201.224
-97.74.42.79
-103.224.212.222
-114.80.208.212
-115.236.22.227
-119.10.37.56
-121.254.178.252
-122.9.227.77
-136.57.3.146
-139.129.150.118
-139.129.188.194
-153.122.55.125
-157.166.173.157
-162.255.119.249
-176.74.176.187
-182.162.95.55
-184.168.221.20
-184.168.221.25
-184.168.221.6
-184.168.221.9
-184.168.221.96
-184.168.38.1
-192.195.77.16
-192.249.123.44
-192.252.156.22
-192.64.119.141
-194.117.254.31
-195.110.128.11
-198.185.159.144
-198.185.159.145
-198.252.108.63
-198.49.23.144
-198.49.23.145
-199.59.243.120
-203.170.80.250
-205.178.189.131
-205.234.252.223
-207.148.248.145
-207.150.212.53
-208.73.210.202
-208.73.210.217
-208.73.211.165
-208.73.211.177
-208.91.197.194
-208.91.197.27
-208.91.197.39
-213.250.113.193
-219.111.1.36
-220.181.112.244
-220.73.130.99
-52.4.209.250
-217.28.218.220
-45.63.101.202
-52.55.128.40
-173.239.23.228
-185.26.120.70
-193.218.145.50
-91.196.0.95
-104.25.87.38
-104.25.88.38
-192.163.237.134
-209.99.64.18
+#############################################################
+## Master Feed of known, active and non-sinkholed C&Cs IP 
+## addresses
+## 
+## Feed generated at: 2017-05-22 17:15 
+##
+## Feed Provided By: John Bambenek of Bambenek Consulting
+## jcb@bambenekconsulting.com // http://bambenekconsulting.com
+## Use of this feed is governed by the license here: 
+## http://osint.bambenekconsulting.com/license.txt 
+##
+## For more information on this feed go to: 
+## http://osint.bambenekconsulting.com/manual/c2-ipmasterlist.txt
+## 
+## All times are in UTC
+#############################################################
+5.101.153.16,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+5.9.73.226,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+23.230.7.8,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+23.236.62.147,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+23.247.20.31,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+43.241.196.105,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+47.89.57.59,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+50.63.202.9,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+52.204.129.22,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+54.85.127.70,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+61.158.163.28,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+62.149.128.151,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+62.149.128.154,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+62.149.128.157,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+62.149.128.160,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+62.149.128.163,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+62.149.128.166,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+62.149.128.72,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+62.149.128.74,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+64.71.33.162,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+67.231.240.114,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+69.46.71.59,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+69.64.147.249,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+74.220.207.152,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+78.24.9.52,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+78.46.156.194,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+81.169.145.160,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+91.203.68.194,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+98.124.245.24,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+103.241.73.233,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+106.187.51.202,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+107.161.176.66,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+109.70.4.246,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+109.71.51.55,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+112.127.77.125,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+119.188.157.22,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+119.23.127.213,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+121.40.153.149,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+122.10.99.22,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+123.1.194.96,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+123.254.108.81,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+123.60.140.93,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+133.242.195.32,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+136.0.112.7,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+141.8.225.124,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+142.4.204.181,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+150.95.255.38,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+162.210.102.66,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+173.236.55.90,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+178.21.17.232,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+178.79.147.207,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+184.168.221.96,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+192.169.243.26,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+192.185.167.91,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+192.190.87.140,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+198.23.48.104,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+199.59.243.120,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+203.156.192.80,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+210.233.65.226,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+213.186.33.5,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+216.239.32.21,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+216.239.34.21,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+216.239.36.21,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+216.239.38.21,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+216.250.121.2,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+216.40.47.17,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+217.160.0.180,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+217.70.184.38,IP used by banjori C&C,2017-05-22 17:04,http://osint.bambenekconsulting.com/manual/banjori.txt
+204.11.56.48,IP used by beebone C&C,2017-05-22 17:10,http://osint.bambenekconsulting.com/manual/beebone.txt
+208.91.197.66,IP used by beebone C&C,2017-05-22 17:10,http://osint.bambenekconsulting.com/manual/beebone.txt
+52.204.129.22,IP used by kraken C&C,2017-05-22 17:13,http://osint.bambenekconsulting.com/manual/kraken.txt
+54.85.127.70,IP used by kraken C&C,2017-05-22 17:13,http://osint.bambenekconsulting.com/manual/kraken.txt
+64.21.149.167,IP used by kraken C&C,2017-05-22 17:13,http://osint.bambenekconsulting.com/manual/kraken.txt
+66.29.58.119,IP used by kraken C&C,2017-05-22 17:13,http://osint.bambenekconsulting.com/manual/kraken.txt
+67.59.157.51,IP used by kraken C&C,2017-05-22 17:13,http://osint.bambenekconsulting.com/manual/kraken.txt
+69.41.162.77,IP used by kraken C&C,2017-05-22 17:13,http://osint.bambenekconsulting.com/manual/kraken.txt
+69.64.147.36,IP used by kraken C&C,2017-05-22 17:13,http://osint.bambenekconsulting.com/manual/kraken.txt
+69.64.147.37,IP used by kraken C&C,2017-05-22 17:13,http://osint.bambenekconsulting.com/manual/kraken.txt
+69.64.147.39,IP used by kraken C&C,2017-05-22 17:13,http://osint.bambenekconsulting.com/manual/kraken.txt
+69.64.147.44,IP used by kraken C&C,2017-05-22 17:13,http://osint.bambenekconsulting.com/manual/kraken.txt
+69.64.147.45,IP used by kraken C&C,2017-05-22 17:13,http://osint.bambenekconsulting.com/manual/kraken.txt
+69.64.147.46,IP used by kraken C&C,2017-05-22 17:13,http://osint.bambenekconsulting.com/manual/kraken.txt
+75.5.255.185,IP used by kraken C&C,2017-05-22 17:13,http://osint.bambenekconsulting.com/manual/kraken.txt
+103.224.212.222,IP used by kraken C&C,2017-05-22 17:13,http://osint.bambenekconsulting.com/manual/kraken.txt
+143.215.15.199,IP used by kraken C&C,2017-05-22 17:13,http://osint.bambenekconsulting.com/manual/kraken.txt
+204.11.56.48,IP used by kraken C&C,2017-05-22 17:13,http://osint.bambenekconsulting.com/manual/kraken.txt
+207.10.232.16,IP used by kraken C&C,2017-05-22 17:13,http://osint.bambenekconsulting.com/manual/kraken.txt
+207.10.232.21,IP used by kraken C&C,2017-05-22 17:13,http://osint.bambenekconsulting.com/manual/kraken.txt
+209.160.65.66,IP used by kraken C&C,2017-05-22 17:13,http://osint.bambenekconsulting.com/manual/kraken.txt
+209.99.40.222,IP used by kraken C&C,2017-05-22 17:13,http://osint.bambenekconsulting.com/manual/kraken.txt
+209.99.40.223,IP used by kraken C&C,2017-05-22 17:13,http://osint.bambenekconsulting.com/manual/kraken.txt
+149.202.106.195,IP used by matsnu C&C,2017-05-22 17:01,http://osint.bambenekconsulting.com/manual/matsnu.txt
+185.179.64.74,IP used by matsnu C&C,2017-05-22 17:01,http://osint.bambenekconsulting.com/manual/matsnu.txt
+168.210.145.198,IP used by necurs C&C,2017-05-22 17:07,http://osint.bambenekconsulting.com/manual/necurs.txt
+170.26.251.131,IP used by necurs C&C,2017-05-22 17:07,http://osint.bambenekconsulting.com/manual/necurs.txt
+172.18.71.129,IP used by necurs C&C,2017-05-22 17:07,http://osint.bambenekconsulting.com/manual/necurs.txt
+173.18.129.166,IP used by necurs C&C,2017-05-22 17:07,http://osint.bambenekconsulting.com/manual/necurs.txt
+175.130.157.1,IP used by necurs C&C,2017-05-22 17:07,http://osint.bambenekconsulting.com/manual/necurs.txt
+175.146.204.167,IP used by necurs C&C,2017-05-22 17:07,http://osint.bambenekconsulting.com/manual/necurs.txt
+249.176.111.217,IP used by necurs C&C,2017-05-22 17:07,http://osint.bambenekconsulting.com/manual/necurs.txt
+249.200.32.218,IP used by necurs C&C,2017-05-22 17:07,http://osint.bambenekconsulting.com/manual/necurs.txt
+250.72.238.26,IP used by necurs C&C,2017-05-22 17:07,http://osint.bambenekconsulting.com/manual/necurs.txt
+251.128.130.29,IP used by necurs C&C,2017-05-22 17:07,http://osint.bambenekconsulting.com/manual/necurs.txt
+251.152.125.216,IP used by necurs C&C,2017-05-22 17:07,http://osint.bambenekconsulting.com/manual/necurs.txt
+251.160.237.252,IP used by necurs C&C,2017-05-22 17:07,http://osint.bambenekconsulting.com/manual/necurs.txt
+252.152.18.29,IP used by necurs C&C,2017-05-22 17:07,http://osint.bambenekconsulting.com/manual/necurs.txt
+252.184.59.95,IP used by necurs C&C,2017-05-22 17:07,http://osint.bambenekconsulting.com/manual/necurs.txt
+254.128.113.249,IP used by necurs C&C,2017-05-22 17:07,http://osint.bambenekconsulting.com/manual/necurs.txt
+254.72.78.94,IP used by necurs C&C,2017-05-22 17:07,http://osint.bambenekconsulting.com/manual/necurs.txt
+23.227.38.32,IP used by nymaim C&C,2017-05-22 17:10,http://osint.bambenekconsulting.com/manual/nymaim.txt
+166.62.10.139,IP used by nymaim C&C,2017-05-22 17:10,http://osint.bambenekconsulting.com/manual/nymaim.txt
+5.149.249.152,IP used by pizd C&C,2017-05-22 17:15,http://osint.bambenekconsulting.com/manual/pizd.txt
+69.64.146.192,IP used by pizd C&C,2017-05-22 17:15,http://osint.bambenekconsulting.com/manual/pizd.txt
+69.64.147.46,IP used by pizd C&C,2017-05-22 17:15,http://osint.bambenekconsulting.com/manual/pizd.txt
+107.180.27.240,IP used by pizd C&C,2017-05-22 17:15,http://osint.bambenekconsulting.com/manual/pizd.txt
+109.235.74.158,IP used by pizd C&C,2017-05-22 17:15,http://osint.bambenekconsulting.com/manual/pizd.txt
+124.217.198.103,IP used by pizd C&C,2017-05-22 17:15,http://osint.bambenekconsulting.com/manual/pizd.txt
+141.8.225.124,IP used by pizd C&C,2017-05-22 17:15,http://osint.bambenekconsulting.com/manual/pizd.txt
+184.168.221.15,IP used by pizd C&C,2017-05-22 17:15,http://osint.bambenekconsulting.com/manual/pizd.txt
+185.16.44.132,IP used by pizd C&C,2017-05-22 17:15,http://osint.bambenekconsulting.com/manual/pizd.txt
+207.148.248.145,IP used by pizd C&C,2017-05-22 17:15,http://osint.bambenekconsulting.com/manual/pizd.txt
+207.97.224.97,IP used by pizd C&C,2017-05-22 17:15,http://osint.bambenekconsulting.com/manual/pizd.txt
+208.91.197.27,IP used by pizd C&C,2017-05-22 17:15,http://osint.bambenekconsulting.com/manual/pizd.txt
+210.245.125.93,IP used by pizd C&C,2017-05-22 17:15,http://osint.bambenekconsulting.com/manual/pizd.txt
+216.185.144.185,IP used by pizd C&C,2017-05-22 17:15,http://osint.bambenekconsulting.com/manual/pizd.txt
+5.9.41.105,IP used by pykspa C&C,2017-05-22 17:09,http://osint.bambenekconsulting.com/manual/pykspa.txt
+40.255.0.62,IP used by pykspa C&C,2017-05-22 17:09,http://osint.bambenekconsulting.com/manual/pykspa.txt
+69.64.147.39,IP used by pykspa C&C,2017-05-22 17:09,http://osint.bambenekconsulting.com/manual/pykspa.txt
+69.64.147.44,IP used by pykspa C&C,2017-05-22 17:09,http://osint.bambenekconsulting.com/manual/pykspa.txt
+162.255.119.249,IP used by pykspa C&C,2017-05-22 17:09,http://osint.bambenekconsulting.com/manual/pykspa.txt
+191.5.59.19,IP used by pykspa C&C,2017-05-22 17:09,http://osint.bambenekconsulting.com/manual/pykspa.txt
+192.235.77.206,IP used by pykspa C&C,2017-05-22 17:09,http://osint.bambenekconsulting.com/manual/pykspa.txt
+52.28.249.128,IP used by ramdo C&C,2017-05-22 17:12,http://osint.bambenekconsulting.com/manual/ramdo.txt
+52.4.209.250,IP used by ramdo C&C,2017-05-22 17:12,http://osint.bambenekconsulting.com/manual/ramdo.txt
+107.170.170.216,IP used by ramdo C&C,2017-05-22 17:12,http://osint.bambenekconsulting.com/manual/ramdo.txt
+34.197.76.50,IP used by ramnit C&C,2017-05-22 17:03,http://osint.bambenekconsulting.com/manual/ramnit.txt
+51.254.172.107,IP used by ramnit C&C,2017-05-22 17:03,http://osint.bambenekconsulting.com/manual/ramnit.txt
+52.9.172.230,IP used by ramnit C&C,2017-05-22 17:03,http://osint.bambenekconsulting.com/manual/ramnit.txt
+52.9.250.234,IP used by ramnit C&C,2017-05-22 17:03,http://osint.bambenekconsulting.com/manual/ramnit.txt
+69.195.129.75,IP used by ramnit C&C,2017-05-22 17:03,http://osint.bambenekconsulting.com/manual/ramnit.txt
+69.64.147.37,IP used by ramnit C&C,2017-05-22 17:03,http://osint.bambenekconsulting.com/manual/ramnit.txt
+89.223.109.60,IP used by ramnit C&C,2017-05-22 17:03,http://osint.bambenekconsulting.com/manual/ramnit.txt
+91.218.114.24,IP used by ramnit C&C,2017-05-22 17:03,http://osint.bambenekconsulting.com/manual/ramnit.txt
+173.230.158.166,IP used by ramnit C&C,2017-05-22 17:03,http://osint.bambenekconsulting.com/manual/ramnit.txt
+185.118.67.219,IP used by ramnit C&C,2017-05-22 17:03,http://osint.bambenekconsulting.com/manual/ramnit.txt
+185.156.178.106,IP used by ramnit C&C,2017-05-22 17:03,http://osint.bambenekconsulting.com/manual/ramnit.txt
+185.49.69.153,IP used by ramnit C&C,2017-05-22 17:03,http://osint.bambenekconsulting.com/manual/ramnit.txt
+213.247.47.190,IP used by ramnit C&C,2017-05-22 17:03,http://osint.bambenekconsulting.com/manual/ramnit.txt
+31.186.169.41,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+46.249.43.105,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+46.28.105.107,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+46.28.2.13,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+46.30.213.205,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+46.30.213.222,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+46.30.213.30,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+46.30.215.30,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+46.30.215.57,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+52.0.217.44,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+52.49.239.96,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+52.58.78.16,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+62.129.200.14,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+62.149.128.151,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+62.149.128.154,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+62.149.128.157,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+62.149.128.160,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+62.149.128.163,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+62.149.128.166,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+62.149.128.72,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+62.149.128.74,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+62.153.122.122,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+62.197.128.123,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+62.212.87.22,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+66.96.149.32,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+72.52.4.122,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+77.232.68.19,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+77.55.97.141,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+79.170.40.236,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+80.237.132.180,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+80.85.86.6,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+81.169.145.105,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+81.169.145.161,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+81.169.145.162,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+81.169.145.68,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+81.169.145.84,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+81.169.145.88,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+81.169.145.92,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+81.169.145.94,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+81.177.139.153,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+81.2.194.128,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+81.2.194.176,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+81.2.194.62,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+81.95.96.29,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+82.100.220.50,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+82.98.135.43,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+83.162.30.185,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+84.234.64.242,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+84.42.137.42,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+85.114.135.128,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+85.124.51.115,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+85.128.128.99,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+85.13.129.76,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+85.13.132.239,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+85.214.112.103,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+87.98.230.60,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+88.198.56.106,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+89.31.143.16,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+91.121.154.229,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+91.121.208.116,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+91.121.59.137,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+91.196.124.119,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+91.199.77.50,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+91.212.28.29,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+91.240.216.11,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+92.43.203.171,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+92.61.39.239,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+93.120.27.9,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+93.190.48.3,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+93.208.111.129,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+93.94.226.29,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+94.152.8.56,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+94.152.8.57,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+95.110.231.107,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+95.211.102.20,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+98.124.199.9,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+104.31.88.58,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+104.31.89.58,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+141.105.126.87,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+141.8.230.20,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+149.216.106.61,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+163.172.86.124,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+165.160.13.20,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+165.160.15.20,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+166.62.28.86,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+178.32.208.147,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+178.33.49.166,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+183.110.225.165,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+183.90.242.4,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+184.168.221.28,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+185.183.8.67,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+185.51.65.84,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+185.53.179.8,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+185.66.236.14,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+188.40.28.163,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+192.64.147.231,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+194.150.113.18,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+194.242.61.31,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+194.9.94.235,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+194.9.94.85,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+194.9.94.86,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+195.110.124.188,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+195.8.208.58,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+199.116.248.204,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+203.151.233.116,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+208.91.199.233,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+209.140.30.61,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+210.172.183.32,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+211.43.203.53,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+212.227.255.128,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+212.85.106.71,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+213.186.33.5,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+217.160.0.169,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+217.160.122.61,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+217.160.223.213,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+217.160.231.163,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+217.160.233.84,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+217.17.85.91,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+217.19.237.54,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+217.70.142.74,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+217.70.184.38,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+217.76.156.252,IP used by simda C&C,2017-05-22 17:08,http://osint.bambenekconsulting.com/manual/simda.txt
+36.3.112.226,IP used by suppobox C&C,2017-05-22 17:10,http://osint.bambenekconsulting.com/manual/suppobox.txt
+46.30.213.21,IP used by suppobox C&C,2017-05-22 17:10,http://osint.bambenekconsulting.com/manual/suppobox.txt
+50.63.202.12,IP used by suppobox C&C,2017-05-22 17:10,http://osint.bambenekconsulting.com/manual/suppobox.txt
+50.63.202.24,IP used by suppobox C&C,2017-05-22 17:10,http://osint.bambenekconsulting.com/manual/suppobox.txt
+50.63.202.28,IP used by suppobox C&C,2017-05-22 17:10,http://osint.bambenekconsulting.com/manual/suppobox.txt
+62.233.121.5,IP used by suppobox C&C,2017-05-22 17:10,http://osint.bambenekconsulting.com/manual/suppobox.txt
+65.39.206.203,IP used by suppobox C&C,2017-05-22 17:10,http://osint.bambenekconsulting.com/manual/suppobox.txt
+66.96.161.157,IP used by suppobox C&C,2017-05-22 17:10,http://osint.bambenekconsulting.com/manual/suppobox.txt
+69.64.147.242,IP used by suppobox C&C,2017-05-22 17:10,http://osint.bambenekconsulting.com/manual/suppobox.txt
+69.64.147.38,IP used by suppobox C&C,2017-05-22 17:10,http://osint.bambenekconsulting.com/manual/suppobox.txt
+69.64.147.44,IP used by suppobox C&C,2017-05-22 17:10,http://osint.bambenekconsulting.com/manual/suppobox.txt
+69.64.147.46,IP used by suppobox C&C,2017-05-22 17:10,http://osint.bambenekconsulting.com/manual/suppobox.txt
+72.52.4.122,IP used by suppobox C&C,2017-05-22 17:10,http://osint.bambenekconsulting.com/manual/suppobox.txt
+74.208.215.133,IP used by suppobox C&C,2017-05-22 17:10,http://osint.bambenekconsulting.com/manual/suppobox.txt
+74.96.70.52,IP used by suppobox C&C,2017-05-22 17:10,http://osint.bambenekconsulting.com/manual/suppobox.txt
+75.126.212.67,IP used by suppobox C&C,2017-05-22 17:10,http://osint.bambenekconsulting.com/manual/suppobox.txt
+75.98.175.123,IP used by suppobox C&C,2017-05-22 17:10,http://osint.bambenekconsulting.com/manual/suppobox.txt
+81.28.232.67,IP used by suppobox C&C,2017-05-22 17:10,http://osint.bambenekconsulting.com/manual/suppobox.txt
+83.140.241.13,IP used by suppobox C&C,2017-05-22 17:10,http://osint.bambenekconsulting.com/manual/suppobox.txt
+84.49.232.107,IP used by suppobox C&C,2017-05-22 17:10,http://osint.bambenekconsulting.com/manual/suppobox.txt
+89.163.213.248,IP used by suppobox C&C,2017-05-22 17:10,http://osint.bambenekconsulting.com/manual/suppobox.txt
+95.143.172.148,IP used by suppobox C&C,2017-05-22 17:10,http://osint.bambenekconsulting.com/manual/suppobox.txt
+97.74.144.212,IP used by suppobox C&C,2017-05-22 17:10,http://osint.bambenekconsulting.com/manual/suppobox.txt
+103.11.102.45,IP used by suppobox C&C,2017-05-22 17:10,http://osint.bambenekconsulting.com/manual/suppobox.txt
+109.68.33.18,IP used by suppobox C&C,2017-05-22 17:10,http://osint.bambenekconsulting.com/manual/suppobox.txt
+121.42.239.99,IP used by suppobox C&C,2017-05-22 17:10,http://osint.bambenekconsulting.com/manual/suppobox.txt
+122.155.187.94,IP used by suppobox C&C,2017-05-22 17:10,http://osint.bambenekconsulting.com/manual/suppobox.txt
+144.76.152.52,IP used by suppobox C&C,2017-05-22 17:10,http://osint.bambenekconsulting.com/manual/suppobox.txt
+173.236.166.37,IP used by suppobox C&C,2017-05-22 17:10,http://osint.bambenekconsulting.com/manual/suppobox.txt
+184.168.221.21,IP used by suppobox C&C,2017-05-22 17:10,http://osint.bambenekconsulting.com/manual/suppobox.txt
+184.168.221.9,IP used by suppobox C&C,2017-05-22 17:10,http://osint.bambenekconsulting.com/manual/suppobox.txt
+185.55.85.123,IP used by suppobox C&C,2017-05-22 17:10,http://osint.bambenekconsulting.com/manual/suppobox.txt
+187.84.225.36,IP used by suppobox C&C,2017-05-22 17:10,http://osint.bambenekconsulting.com/manual/suppobox.txt
+199.34.228.59,IP used by suppobox C&C,2017-05-22 17:10,http://osint.bambenekconsulting.com/manual/suppobox.txt
+207.148.248.145,IP used by suppobox C&C,2017-05-22 17:10,http://osint.bambenekconsulting.com/manual/suppobox.txt
+207.96.1.77,IP used by suppobox C&C,2017-05-22 17:10,http://osint.bambenekconsulting.com/manual/suppobox.txt
+208.75.250.50,IP used by suppobox C&C,2017-05-22 17:10,http://osint.bambenekconsulting.com/manual/suppobox.txt
+208.91.197.27,IP used by suppobox C&C,2017-05-22 17:10,http://osint.bambenekconsulting.com/manual/suppobox.txt
+213.171.195.105,IP used by suppobox C&C,2017-05-22 17:10,http://osint.bambenekconsulting.com/manual/suppobox.txt
+216.239.32.21,IP used by suppobox C&C,2017-05-22 17:10,http://osint.bambenekconsulting.com/manual/suppobox.txt
+216.239.34.21,IP used by suppobox C&C,2017-05-22 17:10,http://osint.bambenekconsulting.com/manual/suppobox.txt
+216.239.36.21,IP used by suppobox C&C,2017-05-22 17:10,http://osint.bambenekconsulting.com/manual/suppobox.txt
+216.239.38.21,IP used by suppobox C&C,2017-05-22 17:10,http://osint.bambenekconsulting.com/manual/suppobox.txt
+52.4.209.250,IP used by tempedreve C&C,2017-05-22 17:10,http://osint.bambenekconsulting.com/manual/tempedreve.txt
+69.64.147.45,IP used by tinba C&C,2017-05-22 17:00,http://osint.bambenekconsulting.com/manual/tinba.txt
+72.52.4.90,IP used by tinba C&C,2017-05-22 17:00,http://osint.bambenekconsulting.com/manual/tinba.txt
+195.54.162.187,IP used by tinba C&C,2017-05-22 17:00,http://osint.bambenekconsulting.com/manual/tinba.txt
+217.28.218.220,IP used by tinba C&C,2017-05-22 17:00,http://osint.bambenekconsulting.com/manual/tinba.txt
+45.63.101.202,IP used by vawtrak C&C,2017-05-22 17:14,http://osint.bambenekconsulting.com/manual/vawtrak.txt
+52.55.128.40,IP used by vawtrak C&C,2017-05-22 17:14,http://osint.bambenekconsulting.com/manual/vawtrak.txt
+82.165.40.180,IP used by vawtrak C&C,2017-05-22 17:14,http://osint.bambenekconsulting.com/manual/vawtrak.txt
+173.239.23.228,IP used by vawtrak C&C,2017-05-22 17:14,http://osint.bambenekconsulting.com/manual/vawtrak.txt
+185.26.120.70,IP used by vawtrak C&C,2017-05-22 17:14,http://osint.bambenekconsulting.com/manual/vawtrak.txt
+193.218.145.50,IP used by vawtrak C&C,2017-05-22 17:14,http://osint.bambenekconsulting.com/manual/vawtrak.txt
+207.250.29.220,IP used by vawtrak C&C,2017-05-22 17:14,http://osint.bambenekconsulting.com/manual/vawtrak.txt
+23.248.163.42,IP used by virut C&C,2017-05-22 17:13,http://osint.bambenekconsulting.com/manual/virut.txt
+122.9.79.177,IP used by virut C&C,2017-05-22 17:13,http://osint.bambenekconsulting.com/manual/virut.txt
+141.8.225.80,IP used by virut C&C,2017-05-22 17:13,http://osint.bambenekconsulting.com/manual/virut.txt
+199.59.243.120,IP used by virut C&C,2017-05-22 17:13,http://osint.bambenekconsulting.com/manual/virut.txt
+212.109.221.89,IP used by virut C&C,2017-05-22 17:13,http://osint.bambenekconsulting.com/manual/virut.txt
