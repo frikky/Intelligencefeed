@@ -9,18 +9,19 @@ class qradar_replace(object):
 		self.threatserver = server
 		self.threatport = port
 
+	# Verifies if the name contains space
 	def check_refname(self, name):
 		if " " in name:
 			return "%2520".join(name.split(" "))
 		else:
 			return name
 
+	# Grabs data from the intelframework running
 	def get_ip(self, category):
 		client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 		client.connect((self.threatserver, self.threatport))
 		client.send("GET /%s/ip HTTP/1.0" % category)
 
-		# Might be too small
 		response = client.recv(65536)
 		
 		# Requests version for other sites
@@ -28,6 +29,7 @@ class qradar_replace(object):
 
 		return response
 
+	# Makes the data usable in the right format
 	def fix_text(self, data):
 		string_compile = "["
 		for item in data.split("\n"):
@@ -38,6 +40,7 @@ class qradar_replace(object):
 		string_compile += "]"
 		return string_compile
 
+	# Bulk loads data to the specified name
 	def add_to_list(self, name, path, data):
 		data = self.fix_text(data)
 
@@ -45,6 +48,7 @@ class qradar_replace(object):
 		print response.text
 		print response.status_code
 
+	# Clears a reference set
 	def clear_list(self, name, path):
 		url = "%s/%s?purge_only=true" % (path, name)
 		try:
@@ -55,6 +59,8 @@ class qradar_replace(object):
 
 		return ret
 
+	# Verify existence of reference set and create if it doesn't exist.	
+	# Appends or refreshes a reference set with new data.
 	def iter_refsets(self, ref_item):
 		for ref_list in ref_item["lists"]:
 			ref_list["name"] = self.check_refname(ref_list["name"])
@@ -74,7 +80,7 @@ class qradar_replace(object):
 				continue
 				#return False
 
-
+	# Iterates the qradar systems
 	def iter_systems(self):
 		for item in json.load(open("systems.json", "r")):
 			self.siem = qradar.QRadar(item["host"], item["SEC"])
