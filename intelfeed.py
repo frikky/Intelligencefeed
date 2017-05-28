@@ -32,6 +32,9 @@ class sock_serv(object):
 			stat("data/")
 		except:
 			mkdir("data/")
+			mkdir("data/ip")
+			mkdir("data/url")
+			mkdir("data/hash")
 			print("Created data folder for first runtime.")
 
 	def run_server(self):
