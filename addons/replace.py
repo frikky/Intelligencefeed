@@ -1,7 +1,6 @@
 import json
 import socket
 import qradar
-import requests
 
 class qradar_replace(object):
 	def __init__(self, server, port):
@@ -24,9 +23,6 @@ class qradar_replace(object):
 
 		response = client.recv(65536)
 		
-		# Requests version for other sites
-		# return requests.get("http://%s:%s/%s/ip" % (threatserver, threatport, category))
-
 		return response
 
 	# Makes the data usable in the right format
@@ -44,7 +40,7 @@ class qradar_replace(object):
 	def add_to_list(self, name, path, data):
 		data = self.fix_text(data)
 
-		response = self.siem.post("%s/bulk_load/%s" % (path, name), headers=self.siem.header, data=data)
+		response = self.siem.post("%s/bulk_load/%s" % (path, name), data=data)
 		print response.text
 		print response.status_code
 
@@ -52,7 +48,7 @@ class qradar_replace(object):
 	def clear_list(self, name, path):
 		url = "%s/%s?purge_only=true" % (path, name)
 		try:
-			ret = self.siem.delete(url, headers=self.siem.header)
+			ret = self.siem.delete(url)
 		except qradar.qradarbase.QRadarError:
 			print "List is empty."
 			return False
