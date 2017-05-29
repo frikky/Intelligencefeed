@@ -1,0 +1,11 @@
+[
+	{
+		"host": "QRadar host",
+		"SEC": "QRadar API token",
+		"lists" [{
+			"category": "tor/phish/etc",
+			"name": "<refsetname>",
+			"type": "<dynamic/static>"
+		}],
+	}
+]
