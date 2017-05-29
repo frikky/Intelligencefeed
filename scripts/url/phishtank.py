@@ -20,14 +20,11 @@ for item in url_path:
     if item.startswith("http://"):
         tmp_item = item[7:].split("/")[0]
         if "http://%s" % tmp_item not in url_list:
-            url_list.append("http://%s" % tmp_item)
+            url_list.append("%s" % tmp_item)
     elif item.startswith("https://"):
         tmp_item = item[8:].split("/")[0]
         if "https://%s" % tmp_item not in url_list:
-            url_list.append("https://%s" % tmp_item)
+            url_list.append("%s" % tmp_item)
 
-
-print(argv[1])
-print(argv[2])
 with open(argv[2], "w+") as dritt:
     dritt.write("\n".join(url_list))

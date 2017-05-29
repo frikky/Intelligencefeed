@@ -10,7 +10,7 @@ from socket import socket,AF_INET,SOCK_STREAM
 class sock_serv(object):
 	def __init__(self):
 		self.config_file = "config/config.json"
-		self.bind_ip = "127.0.0.1"
+		self.bind_ip = "0.0.0.0"
 		try:
 			self.bind_port = int(argv[1])
 		except:
