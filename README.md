@@ -17,7 +17,7 @@ Edit the config file with more information, run the server and try something on 
 3. sudo docker run -d -p "1337:1337" <name>
 
 * Note: If you want realtime configuration of new sources - expose directory config:
-3. sudo docker run -d -v /app/config/:$(pwd)/config/ -p "1337:1337" <name>
+3. sudo docker run -d -v /app/config/:$(pwd)/config/ -v /app/scripts/:$(pwd)/scripts -p "1337:1337" <name>
 
 ## Addons
 This is where I try to actually implement all the data into different systems. Per now its only done using QRadar reference sets. The SIEM only thing necessary then is to create simple IoC rules for the different categories.
@@ -26,6 +26,7 @@ This is where I try to actually implement all the data into different systems. P
 Add cronjobs (or infinite loop) that works, and maybe a docker implementation
 
 ## Todos 
+* Create REST API associated with the data
 * Reverse search possibilities for reference (Might take a while)
 * Change to a normal database. Should be remote or other docker container.
 * Stop using freaking wget and swap to request (pip)

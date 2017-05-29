@@ -30,12 +30,22 @@
 	},
 	{
 		"name": "zeus",
-		"base_url": "https://feodotracker.abuse.ch",
+		"base_url": "https://zeustracker.absue.ch",
 		"category": "cnc",
-		"path": "/?filter=online",
-		"filename": "index.html?filter=online",
+		"path": "blocklist.php?download=ipblocklist",
+		"filename": "blocklist.php?download=ipblocklist",
 		"refreshtime": 43200,
 		"items": ["ip"],
+		"filters": "zeus.py"
+	},
+	{
+		"name": "zeus",
+		"base_url": "https://zeustracker.absue.ch",
+		"category": "cnc",
+		"path": "blocklist.php?download=domainblocklist",
+		"filename": "blocklist.php?download=domainblocklist",
+		"refreshtime": 43200,
+		"items": ["url"],
 		"filters": "zeus.py"
 	}
 ]
