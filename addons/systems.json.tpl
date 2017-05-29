@@ -1,7 +1,7 @@
 [
 	{
-		"host": "172.26.1.11",
-		"SEC": "3b0d8b57-f887-4891-88af-e19295c41e75",
+		"host": "",
+		"SEC": "",
 		"lists": [{
 			"category": "tor",
 			"name": "Tor_Dynamic",
