@@ -9,15 +9,15 @@ Edit the config file with more information, run the server and try something on 
 
 ### For normal usage:
 1. pip install wget
-2. python intelfeed <port>
+2. python intelfeed port
 
 ### Docker usage:
 1. Get docker working 
-2. sudo docker build . -t <name>
-3. sudo docker run -d -p "1337:1337" <name>
+2. sudo docker build . -t name
+3. sudo docker run -d -p "localport:dockerport" name
 
 * Note: If you want realtime configuration of new sources - expose directory config:
-3. sudo docker run -d -v /app/config/:$(pwd)/config/ -v /app/scripts/:$(pwd)/scripts -p "1337:1337" <name>
+3. sudo docker run -d -v /app/config/:$(pwd)/config/ -v /app/scripts/:$(pwd)/scripts -p "1337:1337" name
 
 ## Addons
 This is where I try to actually implement all the data into different systems. Per now its only done using QRadar reference sets. The SIEM only thing necessary then is to create simple IoC rules for the different categories.
