@@ -93,7 +93,12 @@ class grabber(object):
 		if self.token:
 			self.path = self.path.replace("%s", self.token)
 
-		self.filename = download("%s%s" % (self.base_url, self.path))
+                try:
+                    self.filename = download("%s%s" % (self.base_url, self.path))
+                except IOError:
+                    print "Might be error in URL."
+                    return False 
+
 		self.move_file()
 		self.fix_file(path)
 
