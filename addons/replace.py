@@ -1,4 +1,5 @@
 import json
+import requests
 import socket
 import qradar
 
@@ -59,6 +60,8 @@ class qradar_replace(object):
             self.siem.post(url)
         except KeyError: 
             pass
+        except requests.exceptions.ConnectionError:
+            return False 
 
         return True
 
@@ -68,9 +71,12 @@ class qradar_replace(object):
             return True
         except qradar.qradarbase.QRadarError:
             return False
+        except requests.exceptions.ConnectionError:
+            return False
 
     # Clears a reference set
     def clear_list(self, name, path):
+        print "Purging dynamic list"
         url = "%s/%s?purge_only=true" % (path, name)
         try:
             ret = self.siem.delete(url)
@@ -120,5 +126,5 @@ class qradar_replace(object):
 
     
 if __name__ == "__main__":
-    replace = qradar_replace("", )
+    replace = qradar_replace("localhost", 5000)
     replace.iter_systems()

@@ -22,8 +22,8 @@
 		"name": "bambenek",
 		"base_url": "http://osint.bambenekconsulting.com",
 		"category": "c2",
-		"path": "/feeds/c2-ipmasterlist.txt",
-		"filename": "c2-ipmasterlist.txt",
+		"path": "/feeds/c2-ipmasterlist-high.txt",
+		"filename": "c2-ipmasterlist-high.txt",
 		"refreshtime": 43200,
 		"items": ["ip"],
 		"filters": "bambenek.py"
