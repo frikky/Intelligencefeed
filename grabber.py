@@ -93,6 +93,7 @@ class grabber(object):
 		if self.token:
 			self.path = self.path.replace("%s", self.token)
 
+                print "%s%s" % (self.base_url, self.path)
                 try:
                     self.filename = download("%s%s" % (self.base_url, self.path))
                 except IOError:
@@ -105,8 +106,10 @@ class grabber(object):
 		return True
 
 if __name__ == "__main__":
-	phish = grabber("bambenek", "http://osint.bambenekconsulting.com", "/feeds/c2-ipmasterlist.txt", \
-		"c2-ipmasterlist.txt", 43200, "bambenek.py")
-	#def __init__(self, name, base_url, path, filename, refreshtime, filter="", token=""):
+        phish = grabber("zeus", "https://zeustracker.abuse.ch/", 
+            "blocklist.php?download=ipblocklist", 
+            "blocklist.php?download=ipblocklist", 
+             43200, "zeus.py")
+	#phish = grabber("bambenek", "http://osint.bambenekconsulting.com", "/feeds/c2-ipmasterlist.txt", "c2-ipmasterlist.txt", 43200, "bambenek.py")
 
 	print("\n".join(phish.check_all_ip()))

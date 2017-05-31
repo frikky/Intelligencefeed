@@ -1,3 +1,5 @@
+from sys import argv
+
 with open(argv[1], "r") as tmp:
     stuff = tmp.read()
 
@@ -7,8 +9,12 @@ for line in stuff.split("\n"):
     if line.startswith("#"):
         continue
 
-    if not line:
+    if not line or len(line) < 6:
         continue 
+
+    if not line[0].isdigit():
+        continue
+
 
     iplist.append(line)
 

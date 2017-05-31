@@ -120,5 +120,5 @@ class qradar_replace(object):
 
     
 if __name__ == "__main__":
-    replace = qradar_replace("172.28.3.38", 1337)
+    replace = qradar_replace("", )
     replace.iter_systems()

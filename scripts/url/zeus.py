@@ -1,3 +1,5 @@
+from sys import argv
+
 with open(argv[1], "r") as tmp:
     stuff = tmp.read()
 
