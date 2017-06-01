@@ -46,5 +46,6 @@ Add cronjobs (or infinite loop) that works, and maybe a docker implementation
 * Categorization 
 
 ### Creds
+- da\_667 for inspiration
 - https://github.com/hslatman/awesome-threat-intelligence
-- da\_667 :^) 
+- http://osintframework.com/
